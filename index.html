@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Student Productivity Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <button id="darkToggle">🌙 Toggle Dark Mode</button>
+      <h1>📚 Student Productivity Dashboard</h1>
+      <div class="task-input">
+        <input type="text" id="taskInput" placeholder="Enter a task" />
+
+        <select id="priority">
+          <option value="Low">Low</option>
+          <option value="Medium">Medium</option>
+          <option value="High">High</option>
+        </select>
+
+        <button onclick="addTask()">Add Task</button>
+      </div>
+
+      <h3>Your Tasks</h3>
+      <div class="progress-container">
+        <div id="progressBar"></div>
+      </div>
+      <p id="progressText">Progress: 0%</p>
+      <p id="taskStats"></p>
+      <div class="filters">
+        <button onclick="filterTasks('all')">All</button>
+        <button onclick="filterTasks('completed')">Completed</button>
+        <button onclick="filterTasks('pending')">Pending</button>
+      </div>
+      <ul id="taskList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
