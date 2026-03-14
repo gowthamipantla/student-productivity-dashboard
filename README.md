@@ -29,9 +29,10 @@ git clone https://github.com/yourusername/student-productivity-dashboard.git
 
 3. Open `index.html` in your browser
 
-## Project Structure
+## 📂 Project Structure
 
-Student Productivity Dashboard
+```
+student-productivity-dashboard
 │
 ├── index.html
 ├── styles.css
@@ -40,8 +41,9 @@ Student Productivity Dashboard
 └── images
     └── dashboard-lightmode.png
     └── dashboard-darkmode.png
+```
 
-## Screenshot
+## Screenshots
 
-![Student Productivity Dashboard](images/dashboard-lightmode.png)
-![Student Productivity Dashboard](images/dashboard-darkmode.png)
+![Student Productivity Dashboard](screenshots/dashboard-lightmode.png)
+![Student Productivity Dashboard](screenshots/dashboard-darkmode.png)
